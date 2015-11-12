@@ -1,0 +1,47 @@
+fichier:
+":q!"quitter
+":wq"quitter/save
+"CTRL+G"état fichier
+":w FICHIER"enregistrer sous 
+
+Edition:
+"i"insertion
+"v"visuel
+"echap"normal
+"/texte"rechercher
+	"n":chercher à nouveau
+"s/ancien/nouveau/g"remplacer
+":!macommande" executer commande
+
+Deplacement:
+"2w"2 mots en avant
+"5e"fin du 5eme
+"0" debut de ligne
+
+Remplacement:
+"R"remplacer mot
+
+Effacer:
+"x"effacer caractere
+"de"effacer mot
+"dd"effacer ligne
+"d$"effacer apres
+"d2w"effacer 2 mots apres
+
+Annuler:
+"u"derniere commande
+"U"remmettre ligne
+"CTRL+R"annuler annulations
+
+Collage:
+"dd" couper
+"y"copier (passer en mode visuel)
+"p"coller
+
+Split:
+"CTRL w+v":split vertical - (":wq" pour enlever le split en cour)
+			  - (peut avoir plusieurs splits)
+
+Aide:
+":help"
+
